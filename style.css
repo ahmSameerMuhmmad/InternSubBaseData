@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: rgb(232, 207, 207);
+}
+
+#loginScreen h1{
+    text-align: center;
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
