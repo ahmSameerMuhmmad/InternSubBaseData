@@ -8,19 +8,30 @@ and delete customers as needed.
 ### Features
 
 ####Authentication:
+
 Users can log in using their credentials (email and password) to access the application. The API utilizes Bearer authentication, providing a bearer token for subsequent API calls.
 
-####Create a New Customer: 
+
+####Create a New Customer
+
 Users can create a new customer by providing mandatory details such as first name, last name, street, address, city, state, email, and phone number. The application validates the input and displays appropriate messages in case of missing information.
 
-####View Customer List: 
+
+####View Customer List
+
 The application allows users to view the list of all existing customers, displaying their first name, last name, street, address, city, state, email, and phone number.
 
-####Update Customer Information: 
+
+####Update Customer Information
+
 Users can update customer information by providing the unique UUID of the customer along with the updated details. The application ensures that the UUID is valid and the body contains the required data.
 
-####Delete a Customer:
+
+
+####Delete a Customer
+
 Users can delete a customer by providing the UUID of the specific customer. The application verifies the existence of the customer with the provided UUID before performing the deletion.
+
 
 
 ###Getting Started
